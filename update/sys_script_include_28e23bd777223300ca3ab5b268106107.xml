@@ -2,29 +2,29 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>package_private</access>
         <active>true</active>
-        <api_name>sn_sand4.go2</api_name>
+        <api_name>sn_sand4.go3</api_name>
         <caller_access/>
         <client_callable>false</client_callable>
         <description/>
-        <name>go2</name>
-        <script><![CDATA[var go2 = Class.create();
-go2.prototype = {
+        <name>go3</name>
+        <script><![CDATA[var go3 = Class.create();
+go3.prototype = {
     initialize: function() {
     },
 
-    type: 'go2'
+    type: 'go3'
 };]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-07-15 17:24:43</sys_created_on>
-        <sys_id>65a2f7d777223300ca3ab5b268106184</sys_id>
+        <sys_created_on>2019-07-15 17:25:45</sys_created_on>
+        <sys_id>28e23bd777223300ca3ab5b268106107</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>go2</sys_name>
+        <sys_name>go3</sys_name>
         <sys_package display_value="sand4" source="sn_sand4">d660b3d377223300ca3ab5b268106165</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="sand4">d660b3d377223300ca3ab5b268106165</sys_scope>
-        <sys_update_name>sys_script_include_65a2f7d777223300ca3ab5b268106184</sys_update_name>
+        <sys_update_name>sys_script_include_28e23bd777223300ca3ab5b268106107</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-15 17:24:43</sys_updated_on>
+        <sys_updated_on>2019-07-15 17:25:45</sys_updated_on>
     </sys_script_include>
 </record_update>

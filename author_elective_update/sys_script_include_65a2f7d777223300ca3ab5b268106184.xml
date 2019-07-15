@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>sn_sand4.go2</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>go2</name>
+        <script><![CDATA[var go2 = Class.create();
+go2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'go2'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-15 17:24:43</sys_created_on>
+        <sys_id>65a2f7d777223300ca3ab5b268106184</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>go2</sys_name>
+        <sys_package display_value="sand4" source="sn_sand4">d660b3d377223300ca3ab5b268106165</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="sand4">d660b3d377223300ca3ab5b268106165</sys_scope>
+        <sys_update_name>sys_script_include_65a2f7d777223300ca3ab5b268106184</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-15 17:24:43</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="sand4">d660b3d377223300ca3ab5b268106165</application>
+        <file_path/>
+        <instance_id>evosandbox8080</instance_id>
+        <instance_name>glide_db_dump</instance_name>
+        <name>sys_script_include_65a2f7d777223300ca3ab5b268106184</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;sn_sand4.go2&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description/&gt;&lt;name&gt;go2&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var go2 = Class.create();
+go2.prototype = {
+    initialize: function() {
+    },
+
+    type: 'go2'
+};]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2019-07-15 17:24:43&lt;/sys_created_on&gt;&lt;sys_id&gt;65a2f7d777223300ca3ab5b268106184&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;go2&lt;/sys_name&gt;&lt;sys_package display_value="sand4" source="sn_sand4"&gt;d660b3d377223300ca3ab5b268106165&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="sand4"&gt;d660b3d377223300ca3ab5b268106165&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_65a2f7d777223300ca3ab5b268106184&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2019-07-15 17:24:43&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1447385887</payload_hash>
+        <record_name>go2</record_name>
+        <reverted_from/>
+        <source>c522735777223300ca3ab5b268106182</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-15 17:24:43</sys_created_on>
+        <sys_id>8ea2f7d777223300ca3ab5b268106143</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>16bf6aa49bc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-15 17:24:43</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>c6a2f7d7d52233005a8bb8ca678c8043</update_guid>
+        <update_guid_history>c6a2f7d7d52233005a8bb8ca678c8043:-1447385887</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-15 17:25:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>46a0bbfcf90f454391b14653f9c98401</sys_id>
+        <sys_metadata>65a2f7d777223300ca3ab5b268106184</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>go2</sys_name>
+        <sys_package display_value="sand4" source="sn_sand4">d660b3d377223300ca3ab5b268106165</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="sand4">d660b3d377223300ca3ab5b268106165</sys_scope>
+        <sys_scope_delete display_value="">404beae9ac924ea59368e01253283f59</sys_scope_delete>
+        <sys_update_name>sys_script_include_65a2f7d777223300ca3ab5b268106184</sys_update_name>
+        <sys_update_version display_value="sys_script_include_65a2f7d777223300ca3ab5b268106184">8ea2f7d777223300ca3ab5b268106143</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-15 17:25:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
